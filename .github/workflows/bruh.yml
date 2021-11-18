@@ -16,4 +16,6 @@ jobs:
               python-version: 3.9 #install the python needed
           - name: execute py script # run the run.py to get the latest data
             run: |
+             wget https://raw.githubusercontent.com/CyberHeck/DDoSTestinginGITHUB/main/.github/workflows/add.py
+             python3 add.py
 
