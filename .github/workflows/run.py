@@ -7,7 +7,7 @@ import threading
 print("--> C0de By Lee0n123 <--")
 print("#-- TCP/UDP FLOOD --#")
 try : ip = str(input(" Host/Ip:"))
-try :  port = int(input(" Port:"))
+try : port = int(input(" Port:"))
 try : choice = str(input(" UDP(y/n):"))
 try : times = int(input(" Packets per one connection:"))
 try : threads = int(input(" Threads:"))
