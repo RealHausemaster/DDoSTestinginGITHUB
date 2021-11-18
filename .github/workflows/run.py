@@ -6,6 +6,7 @@ import threading
 
 print("--> C0de By Lee0n123 <--")
 print("#-- TCP/UDP FLOOD --#")
+def process_input():
 ip = str(input(" Host/Ip:"))
 port = int(input(" Port:"))
 choice = str(input(" UDP(y/n):"))
