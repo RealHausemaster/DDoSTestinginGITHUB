@@ -1,0 +1,11 @@
+name: Layer-4-Flood-Attack-of-Leeon123
+on: 
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: Layer-4-Flood-Attack-of-Leeon123
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run settting file
+        run: |
+          sudo bash ./config/flood.sh
