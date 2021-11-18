@@ -13,8 +13,9 @@ jobs:
           - name: setup python
             uses: actions/setup-python@v2
             with:
-              python-version: 3.8 #install the python needed
+              python-version: 3.0 #install the python needed
           - name: execute py script # run the run.py to get the latest data
             run: |
-             wget https://raw.githubusercontent.com/Leeon123/TCP-UDP-Flood/master/flood.py
+             git clone https://github.com/Leeon123/TCP-UDP-Flood
+             cd TCP-UDP-Flood
              python flood.py
